@@ -7,7 +7,7 @@ $(window).scroll(function() {
        wS = $(this).scrollTop();
     console.log((hT-wH) , wS);
    if (wS > (hT+hH-wH)){
-    $('#myP').fadeOut('slow')
+    $('#myP').fadeOut('slow'))
    } else {
     $('#myP').show()   
    }
